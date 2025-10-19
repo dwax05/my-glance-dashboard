@@ -1,0 +1,8 @@
+- type: videos
+  style: grid-cards
+  collapse-after-rows: 2
+  channels:
+    - UCwHwDuNd9lCdA7chyyquDXw # Bread on Penguins
+    - UCsBjURrPoezykLs9EqgamOA # Fireship
+    - UCrqM0Ym_NbK1fqeQG2VIohg # Tsoding
+    - UCYO_jab_esuFRV4b17AJtAw # 3Blue1Brown

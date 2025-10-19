@@ -1,0 +1,23 @@
+- name: home
+  head-widgets:
+    $include: widgets/markets.yml
+
+  columns:
+    - size: small
+      widgets:
+        - $include: widgets/clock.yml
+        - $include: widgets/randomfact.yml
+        - $include: widgets/calendar.yml
+
+    - size: full
+      widgets:
+        - type: search
+          autofocus: true
+
+        - $include: widgets/monitor.yml
+        - $include: widgets/rss.yml
+
+    - size: small
+      widgets:
+        - $include: widgets/stats.yml
+        - $include: widgets/docker.yml

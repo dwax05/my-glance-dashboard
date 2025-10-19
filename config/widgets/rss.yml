@@ -1,0 +1,14 @@
+- type: group
+  widgets:
+    - type: hacker-news
+      limit: 15
+      collapse-after: 6
+    # - type: rss
+    #   title: Obsidian
+    #   limit: 15
+    #   collapse-after: 6
+    #   cache: 6h
+    #   feeds:
+    #     - url: https://publish.obsidian.md/dwax/rss.xml
+    #       title: dwax
+    $include: reddit.yml

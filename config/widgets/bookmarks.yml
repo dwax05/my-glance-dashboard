@@ -1,0 +1,34 @@
+- type: bookmarks
+  groups:
+    - title: AI Tools 🤖
+      links:
+        - title: OpenWebUI
+          url: http://localhost:3000
+        - title: Ollama
+          url: https://ollama.com/models
+        - title: Google AI Mode
+          url: https://www.google.com/aimode
+        - title: Gemini
+          url: https://gemini.google.com
+        - title: Claude
+          url: https://claude.ai
+        - title: ChatGPT
+          url: https://chat.openai.com
+    - title: Tools
+      links:
+        - title: Build Your Own
+          url: https://github.com/codecrafters-io/build-your-own-x
+    - title: Sail the Seas 🏴‍☠️
+      links:
+        - title: Megathread
+          url: https://www.reddit.com/r/Piracy/wiki/megathread/
+        - title: Liber3
+          url: https://liber3.eth.limo/
+        - title: Fitgirl
+          url: https://fitgirl-repacks.site/
+        - title: SteamRIP
+          url: https://steamrip.com/
+    - title: Media 🎬
+      links:
+        - title: Cineby
+          url: https://cineby.app

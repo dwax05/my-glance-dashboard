@@ -1,0 +1,18 @@
+- name: media
+  center-vertically: true
+  columns:
+    - size: small
+      widgets:
+        - $include: widgets/bookmarks.yml
+        - $include: widgets/github.yml
+
+    - size: full
+      widgets:
+        - $include: widgets/rss.yml
+        - $include: widgets/yt.yml
+
+    - size: small
+      widgets:
+        - $include: widgets/githubtop.yml
+        - $include: widgets/steam.yml
+        - $include: widgets/epicgames.yml

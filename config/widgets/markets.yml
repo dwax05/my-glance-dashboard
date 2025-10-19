@@ -1,0 +1,15 @@
+- type: markets
+  markets:
+    - symbol: BTC-USD
+      name: Bitcoin
+    - symbol: SPY
+      name: S&P 500
+    - symbol: BTC-USD
+      name: Bitcoin
+    - symbol: NVDA
+      name: NVIDIA
+    - symbol: AAPL
+      name: Apple
+    - symbol: MSFT
+      name: Microsoft
+  chart-link-template: https://finance.yahoo.com/quote/{SYMBOL}/

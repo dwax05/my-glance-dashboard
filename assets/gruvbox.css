@@ -1,0 +1,53 @@
+/* Gruvbox CSS Theme for Glance */
+
+body {
+  background-color: hsl(0, 0%, 16%);
+  color: hsl(43, 50%, 70%);
+}
+
+a {
+  color: hsl(43, 59%, 81%);
+}
+
+a:hover {
+  color: hsl(43, 59%, 91%);
+}
+
+/* Widget box styling */
+.widget {
+  background-color: hsl(0, 0%, 10%);
+  border: 1px solid hsl(43, 59%, 40%);
+  padding: 1rem;
+  border-radius: 6px;
+  color: hsl(43, 50%, 70%);
+}
+
+/* Headers in widgets */
+.widget h1, .widget h2, .widget h3, .widget h4 {
+  color: hsl(43, 70%, 85%);
+  font-weight: bold;
+}
+
+/* RSS widget specific tweak */
+.widget-type-rss a {
+  font-size: 1.1rem;
+  color: hsl(109, 58%, 40%);
+}
+
+/* Positive and negative styles */
+.positive {
+  color: hsl(61, 66%, 44%);
+}
+
+.negative {
+  color: hsl(6, 96%, 59%);
+}
+
+/* Utility classes override if needed */
+.text-muted {
+  color: hsl(43, 20%, 40%);
+}
+
+.text-accent {
+  color: hsl(220, 91%, 54%);
+}

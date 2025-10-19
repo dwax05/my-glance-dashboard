@@ -1,0 +1,7 @@
+- name: mobile
+  columns:
+    - size: full
+      widgets:
+        - $include: widgets/stats.yml
+        - $include: widgets/monitor.yml
+        - $include: widgets/docker.yml

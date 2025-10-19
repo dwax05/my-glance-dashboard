@@ -1,0 +1,8 @@
+- type: releases
+  cache: 1d
+  repositories:
+    - rust-lang/rust
+    - glanceapp/glance
+    - lumateam/luma3ds
+    - open-webui/open-webui
+    - felixkratz/sketchybar

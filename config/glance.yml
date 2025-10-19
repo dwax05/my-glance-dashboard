@@ -1,0 +1,17 @@
+server:
+  port: 5050
+  assets-path: /app/assets
+
+theme:
+  background-color: 30 20 12
+  primary-color: 40 90 60
+  contrast-multiplier: 1.1
+  positive-color: 95 60 45
+  negative-color: 0 80 50
+
+pages:
+  # It's not necessary to create a new file for each page and include it, you can simply
+  # put its contents here, though multiple pages are easier to manage when separated
+  $include: home.yml
+  $include: mobile.yml
+  $include: media.yml

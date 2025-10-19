@@ -1,0 +1,26 @@
+- type: bookmarks
+  groups:
+    - title: General
+      links:
+        - title: Gmail
+          url: https://mail.google.com/mail/u/0/
+        - title: Amazon
+          url: https://www.amazon.com/
+        - title: Github
+          url: https://github.com/
+    - title: School
+      links:
+        - title: Webcourses
+          url: https://webcourses.ucf.edu/
+        - title: Myucf
+          url: https://my.ucf.edu/
+        - title: Liber3
+          url: https://liber3.eth.limo/
+    - title: Social
+      links:
+        - title: Reddit
+          url: https://www.reddit.com/
+        - title: Twitter
+          url: https://twitter.com/
+        - title: Instagram
+          url: https://www.instagram.com/

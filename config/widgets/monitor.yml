@@ -1,0 +1,16 @@
+- type: monitor
+  cache: 1m
+  title: Services
+  sites:
+    - title: Stremio 
+      url: "http://dwax-debian.tail.dylanwax.com:8080"
+      icon: si:stremio
+    - title: n8n 
+      url: "http://dwax-debian.tail.dylanwax.com:5678"
+      icon: si:n8n
+    - title: StirlingPDF
+      url: "http://dwax-debian.tail.dylanwax.com:8585"
+      icon: si:libreofficewriter
+    - title: kan
+      url: "http://dwax-debian.tail.dylanwax.com:3000"
+      icon: si:trello
