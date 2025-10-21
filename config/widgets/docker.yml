@@ -2,12 +2,14 @@
   hide-by-default: true
   containers:
     stremio-web:
-      name: Stremio Web
+      name: Stremio
+      id: Stremio
       url: "http://dwax-debian.tail.dylanwax.com:8080"
       icon: si:stremio
       hide: false
     stremio-server:
       name: Stremio Server
+      parent: Stremio
       url: "http://dwax-debian.tail.dylanwax.com:11470"
       icon: si:node-dot-js
       hide: false
@@ -27,13 +29,32 @@
       icon: si:libreofficewriter
       hide: false
     kan-web:
-      name: kan-web
+      name: kan
+      id: kan
       url: "http://dwax-debian.tail.dylanwax.com:3000"
       icon: si:trello
       hide: false
     kan-db:
       name: kan-db
+      parent: kan
       url: "http://dwax-debian.tail.dylanwax.com:3000"
       icon: si:trello
       hide: false
-
+    nextcloud-compose:
+      name: Nextcloud
+      id: nextcloud
+      url: "https://nextcloud.dylanwax.com"
+      icon: si:nextcloud
+      hide: false
+    nextcloud-compose-db:
+      name: db
+      parent: nextcloud
+      hide: false
+    nextcloud-redis-1:
+      name: redis
+      parent: nextcloud
+      hide: false
+    caddy:
+      name: caddy
+      icon: si:caddy
+      hide: false

@@ -1,6 +1,7 @@
 server:
   port: 5050
   assets-path: /app/assets
+  proxied: true
 
 theme:
   background-color: 30 20 12
