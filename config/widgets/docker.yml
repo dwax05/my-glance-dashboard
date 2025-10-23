@@ -4,7 +4,7 @@
     stremio-web:
       name: Stremio
       id: Stremio
-      url: "http://dwax-debian.tail.dylanwax.com:8080"
+      url: "https://stremio.dylanwax.com"
       icon: si:stremio
       description: Movies & Shows
       hide: false
@@ -22,20 +22,20 @@
       hide: false
     n8n:
       name: n8n
-      url: "http://dwax-debian.tail.dylanwax.com:5678"
+      url: "https://n8n.dylanwax.com"
       description: Automation
       icon: si:n8n
       hide: false
     stirlingpdf:
       name: Stirling PDF
-      url: "http://dwax-debian.tail.dylanwax.com:8585"
+      url: "https://stirlingpdf.dylanwax.com"
       description: AIO PDF Tool
       icon: si:libreofficewriter
       hide: false
     kan-web:
-      name: kan
+      name: Kan
       id: kan
-      url: "http://dwax-debian.tail.dylanwax.com:3000"
+      url: "https://kan.dylanwax.com"
       description: Kanban Boards
       icon: si:trello
       hide: false
@@ -61,7 +61,18 @@
       parent: nextcloud
       hide: false
     caddy:
-      name: caddy
+      name: Caddy
       description: Reverse Proxy
       icon: si:caddy
+      hide: false
+    mealie:
+      name: Mealie
+      description: Meal Planner & Cookbook
+      url: "https://mealie.dylanwax.com"
+      icon: si:mealie
+      hide: false
+    mealie-db:
+      name: mealie-db
+      icon: si:mealie
+      parent: mealie
       hide: false
