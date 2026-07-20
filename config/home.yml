@@ -14,10 +14,11 @@
         - type: search
           autofocus: true
 
-        - $include: widgets/docker.yml
+        - $include: widgets/monitor.yml
         - $include: widgets/rss.yml
 
     - size: small
       widgets:
+        - $include: widgets/mealie.yml
         - $include: widgets/stats.yml
-        - $include: widgets/monitor.yml
+        - $include: widgets/docker.yml
